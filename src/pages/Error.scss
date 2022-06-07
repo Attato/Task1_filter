@@ -1,0 +1,38 @@
+.flex-height {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    user-select: none;
+    background-color: #1c1c1c;
+
+    .error-wrapper {
+        text-align: center;
+
+        h1, font {
+            color: white;
+        }
+
+        .button-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 24px 0;
+            
+            .return-button {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 155px;
+                min-width: 40px;
+                height: 32px;
+                padding: 0 16px;
+                font-size: 14px;
+                font-weight: 600;
+                border-radius: 6px;
+                background-color: white;
+                color: #1c1c1c;
+            }
+        }
+    }
+}

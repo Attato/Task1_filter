@@ -1,0 +1,39 @@
+.index{
+    background-color: #1c1c1c;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .index__common-wrapper{
+        display: flex;
+
+        .index__row-wrapper{
+            display: flex;
+            gap: 50px;
+            width: 100%;
+        }
+    }
+    .index__header{
+        color: #58a6ff;
+        margin-bottom: 10px;
+    }
+
+    .index__apply-wrapper{
+        margin: 20px 0;
+        .index-filter__selection{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .index__apply-button{
+            color: #58a6ff;
+            cursor: pointer;
+    
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
